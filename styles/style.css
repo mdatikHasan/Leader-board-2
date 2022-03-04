@@ -8,12 +8,16 @@
   }
   main{
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; */
   }
   .container{
       background-color: #fff;
       width: 870px;
       padding: 30px;
+      margin-top: 25px;
+      border-radius: 5px;
   }
   .top-players{
       margin-bottom: 30px;
@@ -43,6 +47,7 @@
   hr{
       width: 807px;
       border: 1px solid #D1D1D1;
+      margin-bottom: 22px;
   }
 
   /* --------------------top blog syles ------------------------- */
@@ -76,3 +81,26 @@
       color: #562EFF;
       
   }
+
+  /* Latest courses */
+
+.course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-title{
+    margin-top: 18.23px;
+    margin-bottom: 0;
+}
+.couse-author{
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+.couse-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
